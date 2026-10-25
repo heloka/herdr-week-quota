@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="24">
+  <!-- Illustration of the Herdr Agent sidebar with demo data (not a real session). -->
+  <rect width="560" height="470" fill="#0c0c0c"/>
+  <line x1="24" y1="20" x2="530" y2="20" stroke="#3a3f4b" stroke-width="2"/>
+  <line x1="542" y1="0" x2="542" y2="470" stroke="#3a3f4b" stroke-width="2"/>
+  <text x="36" y="68" fill="#8b919a" font-weight="bold">agents</text>
+  <text x="528" y="68" fill="#8b919a" font-weight="bold" text-anchor="end">grouped</text>
+
+  <g>
+    <circle cx="44" cy="124" r="7" fill="none" stroke="#98c379" stroke-width="2"/>
+    <text x="72" y="132" fill="#7f848e">Local · <tspan fill="#abb2bf" font-weight="bold">my-app</tspan> · main</text>
+    <text x="72" y="169" fill="#7f848e">codex</text>
+    <text x="72" y="206" fill="#61afef">7d 7% · reset 6d20h</text>
+  </g>
+
+  <rect x="16" y="222" width="514" height="111" fill="#2c313a"/>
+  <g>
+    <circle cx="44" cy="235" r="7" fill="none" stroke="#98c379" stroke-width="2"/>
+    <text x="72" y="243" fill="#7f848e">Local · <tspan fill="#abb2bf" font-weight="bold">my-app</tspan> · main</text>
+    <text x="72" y="280" fill="#7f848e">claude</text>
+    <text x="72" y="317" fill="#61afef">7d 40% · reset 1d21h</text>
+  </g>
+
+  <g>
+    <circle cx="44" cy="346" r="7" fill="none" stroke="#98c379" stroke-width="2"/>
+    <text x="72" y="354" fill="#7f848e">Local · <tspan fill="#abb2bf" font-weight="bold">my-app</tspan> · docs</text>
+    <text x="72" y="391" fill="#7f848e">agy</text>
+    <text x="72" y="428" fill="#61afef">7d 19% · reset 5d1h</text>
+  </g>
+</svg>

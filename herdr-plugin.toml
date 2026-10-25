@@ -1,0 +1,23 @@
+id = "herdr-week-quota"
+name = "Week Quota"
+version = "0.1.0"
+min_herdr_version = "0.8.0"
+description = "Show this week's used agent quota in the Agent sidebar"
+platforms = ["windows"]
+
+[[startup]]
+command = ["python", "bin/week_quota.py", "ensure"]
+
+[[events]]
+on = "pane.created"
+command = ["python", "bin/week_quota.py", "ensure"]
+
+[[events]]
+on = "pane.agent_detected"
+command = ["python", "bin/week_quota.py", "ensure"]
+
+[[actions]]
+id = "refresh"
+title = "Week Quota: refresh now"
+contexts = ["workspace", "pane"]
+command = ["python", "bin/week_quota.py", "refresh"]
